@@ -1,0 +1,276 @@
+body{
+  color: #FFF;
+  text-align: right;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.topnav-menu, .menu{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.menus{
+  padding: var(--default-pad);
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mainnav{
+  padding: var(--medium-pad) 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainnav > a{
+  padding-left: var(--default-pad);
+}
+
+.main-content{
+  background-color: #ccc;
+  flex-grow: 1;
+}
+
+.main-content2{
+  color: #000;
+  text-align: left;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: -10px;
+  display: flex;
+}
+
+#bemvindo{
+  margin-left: 30px;
+  margin-right: 600px;
+}
+
+#n{
+  width: 60px;
+  margin-top: -15px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.topnav{
+  background-color: #C31D1D;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px
+}
+
+#forum{
+  border-radius: 33px;
+  background: #C31D1D;
+  color: #FFF;
+  text-align: center;
+  font-family: Heebo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.topnav-menu li{
+  display: inline-block;
+  list-style: none;
+}
+
+main{
+  padding: var(--default-pad);
+}
+
+#texto1{
+  margin-left: 10px;
+}
+
+#provanew{
+  border-radius: 33px;
+  background: #C31D1D;
+  color: #FFF;
+  text-align: center;
+  font-family: Heebo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+#txtProva1{
+  margin-top: 200px;
+  margin-left: -110px;
+  border-radius: 2px;
+  background: #C31D1D;
+  font-size: 28px;
+  color: #FFF;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  width: 196px;
+  height: 39px;
+  flex-shrink: 0;
+}
+
+#prova1{
+  margin-left: -100px;
+  margin-top: 10px;
+
+}
+
+#txtProva2{
+  margin-top: -205px;
+  margin-left: 172px;
+  border-radius: 2px;
+  background: #C31D1D;
+  font-size: 28px;
+  color: #FFF;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  width: 196px;
+  height: 39px;
+  flex-shrink: 0;
+}
+
+#prova2{
+  margin-left: 200px;
+  margin-top: 10px;
+}
+
+#txtProva3{
+  margin-left: 743px;
+  margin-top: -205px;
+  border-radius: 2px;
+  background: #C31D1D;
+  font-size: 28px;
+  color: #FFF;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  width: 196px;
+  height: 39px;
+  flex-shrink: 0;
+}
+
+#prova3{
+  margin-top: 10px;
+  margin-right: 950px;
+}
+
+#txtProva4{
+  margin-top: -203px;
+  margin-left: 1028px;
+  border-radius: 2px;
+  background: #C31D1D;
+  font-size: 28px;
+  color: #FFF;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  width: 196px;
+  height: 39px;
+  flex-shrink: 0;
+}
+
+#prova4{
+  margin-top: 10px;
+  margin-right: 660px;
+}
+
+#suasquestões{
+  margin-left: 10px;
+}
+
+#txtmatematica{
+  margin-left: 180px;
+  border-radius: 2px;
+  background: #C31D1D;
+  font-size: 28px;
+  color: #FFF;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  width: 196px;
+  height: 39px;
+  flex-shrink: 0;
+}
+
+#Matemática{
+  margin-top: 10px;
+  margin-left: 220px;
+}
+
+#txtportugues{
+  margin-top: -175px;
+  margin-left: 465px;
+  border-radius: 2px;
+  background: #C31D1D;
+  font-size: 28px;
+  color: #FFF;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  width: 196px;
+  height: 39px;
+  flex-shrink: 0;
+}
+
+#Português{
+  margin-top: 10px;
+  margin-left: 530px;
+}
+
+#txtquimica{
+  margin-top: -175px;
+  margin-left: 740px;
+  border-radius: 2px;
+  background: #C31D1D;
+  font-size: 28px;
+  color: #FFF;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  width: 196px;
+  height: 39px;
+  flex-shrink: 0;
+}
+
+#Química{
+  margin-top: 10px;
+  margin-right: 970px;
+}
+
+#txtfisica{
+  margin-top: -172px;
+  margin-left: 1027px;
+  border-radius: 2px;
+  background: #C31D1D;
+  font-size: 28px;
+  color: #FFF;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  width: 196px;
+  height: 39px;
+  flex-shrink: 0;
+}
+
+#Física{
+  margin-top: 10px;
+  margin-right: 665px;
+}
